@@ -7,7 +7,7 @@ echo "<b>".$key."</b> = ".$value;
 echo "<br>";
 }
 
-$servername = "mysql";
+$servername = "localhost";
 $username = "dbadmin";
 $password = "Heslo123";
 $dbname = "dbtest";
