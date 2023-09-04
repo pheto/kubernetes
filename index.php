@@ -9,8 +9,8 @@ echo "<br>";
 
 $servername = "192.168.1.52";
 $username = "root";
-$password = "root";
-$dbname = "dbtest";
+$password = "Heslo123";
+$dbname = "mysql";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
