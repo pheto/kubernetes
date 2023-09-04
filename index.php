@@ -7,10 +7,10 @@ echo "<b>".$key."</b> = ".$value;
 echo "<br>";
 }
 
-$servername = "192.168.1.52";
-$username = "root";
+$servername = "127.0.0.1";
+$username = "dbadmin";
 $password = "Heslo123";
-$dbname = "mysql";
+$dbname = "dbtest";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
