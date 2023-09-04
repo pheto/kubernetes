@@ -7,7 +7,7 @@ echo "<b>".$key."</b> = ".$value;
 echo "<br>";
 }
 
-$servername = "10.244.0.163";
+$servername = "192.168.1.52:32147";
 $username = "dbadmin";
 $password = "Heslo123";
 $dbname = "dbtest";
